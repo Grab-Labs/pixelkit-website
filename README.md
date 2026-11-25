@@ -6,4 +6,4 @@ GitHub Pages publishes this static site from `main` at the repository root. It n
 
 To update the public support address, edit the visible email and its `mailto:` value in `support.html`. The policy pages link to that contact section.
 
-The screenshots depict the PixelKit Pro 1.0.0 Chrome workspace. Manrope is included under the SIL Open Font License in `assets/Manrope-OFL.txt`.
+The screenshots depict the PixelKit Pro 1.1.0 Chrome workspace. The editor screenshot previews the planned Pro tier. Manrope is included under the SIL Open Font License in `assets/Manrope-OFL.txt`.

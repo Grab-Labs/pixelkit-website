@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>PixelKit Pro | Private image tools for Chrome</title>
-  <meta name="description" content="Convert, resize, compress and edit images in Chrome on your device. Explore PixelKit Pro by PixelKit Labs, with Free tools and a planned $14.99 lifetime upgrade.">
+  <meta name="description" content="Download webpage images and resize on your device for free. Unlock more image tools with the planned $14.99 lifetime upgrade from PixelKit Labs.">
   <meta name="theme-color" content="#171229">
   <link rel="canonical" href="https://aavedisian00.github.io/pixelkit-website/">
   <meta property="og:type" content="website">
@@ -12,7 +12,7 @@
   <meta property="og:description" content="An image workspace for Chrome that processes your files on your device.">
   <meta property="og:url" content="https://aavedisian00.github.io/pixelkit-website/">
   <meta property="og:image" content="https://aavedisian00.github.io/pixelkit-website/assets/social-preview.jpg">
-  <meta property="og:image:alt" content="PixelKit Pro editing a coastal photograph in its Chrome workspace">
+  <meta property="og:image:alt" content="PixelKit Pro resizing a coastal photograph in its Chrome workspace">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icon32.png">
   <link rel="preload" href="assets/manrope.woff2" as="font" type="font/woff2" crossorigin>
@@ -33,52 +33,52 @@
         <div class="hero-copy">
           <p class="eyebrow"><span></span> A Chrome extension by PixelKit Labs</p>
           <h1 id="hero-title">Your images.<br><em>Your device.</em></h1>
-          <p>Convert, resize, compress and edit images in one Chrome workspace. Local files stay on your device, with no account or cloud processing.</p>
+          <p>Download webpage images and resize for free in Chrome. Pro adds conversion, compression, editing and more. Local files stay on your device.</p>
           <div class="actions"><a class="button primary" href="#workspace">Explore the workspace</a><a class="button dark-outline" href="#pricing">View pricing</a></div>
         </div>
         <figure class="hero-figure">
-          <div class="hero-frame"><img src="assets/compression.jpg" width="1280" height="800" alt="PixelKit Pro showing a coastal photo compressed to WebP with before and after controls, a quality slider and exported file size." fetchpriority="high"></div>
-          <figcaption>PixelKit Pro workspace · Compression</figcaption>
+          <div class="hero-frame"><img src="assets/resize.jpg" width="1280" height="800" alt="PixelKit Pro showing a coastal photo resized to 960 by 640 pixels, with preview and download controls." fetchpriority="high"></div>
+          <figcaption>PixelKit Pro workspace · Free Resize</figcaption>
         </figure>
       </div>
     </section>
     <section class="format-bar" aria-label="Supported formats">
-      <div class="wrap"><span>Input &amp; output formats</span><ul><li>JPEG</li><li>PNG</li><li>WebP</li><li>AVIF</li><li>BMP</li><li>GIF</li><li>SVG</li><li>ICO</li></ul></div>
+      <div class="wrap"><span>Supported image formats</span><ul><li>JPEG</li><li>PNG</li><li>WebP</li><li>AVIF</li><li>BMP</li><li>GIF</li><li>SVG</li><li>ICO</li></ul></div>
     </section>
     <section class="wrap section workspace" id="workspace" aria-labelledby="workspace-title">
-      <div class="section-intro"><h2 id="workspace-title">See the tools in action</h2><p>These screenshots show PixelKit Pro running in Chrome. Switch views to see how cropping, compression and color sampling work.</p></div>
+      <div class="section-intro"><h2 id="workspace-title">See the tools in action</h2><p>See Image Downloader and Resize in the Free workspace, or preview the planned Pro editor.</p></div>
       <div class="demo">
         <div class="demo-buttons" aria-label="Workspace screenshots">
-          <button type="button" id="edit-tab" data-demo="edit-demo">Crop and edit</button>
-          <button type="button" id="compress-tab" data-demo="compress-demo">Compress</button>
-          <button type="button" id="color-tab" data-demo="color-demo">Pick colors</button>
+          <button type="button" id="resize-tab" data-demo="resize-demo">Resize</button>
+          <button type="button" id="download-tab" data-demo="download-demo">Download</button>
+          <button type="button" id="edit-tab" data-demo="edit-demo">Edit (Pro)</button>
         </div>
+        <figure class="demo-panel" id="resize-demo">
+          <img src="assets/resize.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Free Resize workspace showing pixel dimensions, aspect ratio controls and the resized export.">
+          <figcaption><strong>Resize for free</strong><span>Set dimensions or scale by percentage. Choose a social preset, then resize and save your images in one batch.</span></figcaption>
+        </figure>
+        <figure class="demo-panel" id="download-demo">
+          <img src="assets/downloader.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Free Image Downloader showing a webpage gallery, image filters and multiple selected images.">
+          <figcaption><strong>Download for free</strong><span>Scan a webpage, filter the gallery and save selected images as individual files. Save one or many in the same operation.</span></figcaption>
+        </figure>
         <figure class="demo-panel" id="edit-demo">
-          <img src="assets/editor.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Editor showing four draggable crop handles over the original photo and sliders for brightness, contrast and saturation.">
-          <figcaption><strong>Crop and edit</strong><span>Drag crop handles, rotate or flip, and adjust brightness, contrast and saturation. Undo changes or compare the result against the original.</span></figcaption>
-        </figure>
-        <figure class="demo-panel" id="compress-demo">
-          <img src="assets/compression.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Compression workspace comparing source and WebP output file sizes for the coastal sample image.">
-          <figcaption><strong>Compress</strong><span>Choose JPEG, WebP or AVIF, set a quality level, and compare the actual encoded output and file size.</span></figcaption>
-        </figure>
-        <figure class="demo-panel" id="color-demo">
-          <img src="assets/color-tools.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Color Tools in dark mode showing a sampled teal swatch and copy buttons for HEX, RGB and HSL.">
-          <figcaption><strong>Pick colors</strong><span>Sample a pixel and copy its HEX, RGB or HSL value. Pro adds dominant colors and CSS palette export.</span></figcaption>
+          <img src="assets/editor.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Pro editor preview showing draggable crop handles and adjustment sliders.">
+          <figcaption><strong>Edit with Pro</strong><span>Preview the planned Pro editor. Drag crop handles, rotate or flip, and adjust brightness, contrast and saturation.</span></figcaption>
         </figure>
       </div>
     </section>
     <section class="feature-band" aria-label="Image workflow">
       <div class="wrap feature-layout">
-        <article><div class="feature-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/></svg></div><h3>Convert and resize</h3><p>Change formats, set exact dimensions, scale by percentage or start with a social preset. Fit, fill or pad an image to match your layout.</p></article>
+        <article><div class="feature-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/></svg></div><h3>Resize images</h3><p>Set exact dimensions, scale by percentage or start with a social preset. Fit, fill or pad an image to match your layout.</p></article>
         <article><div class="feature-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 15v5h16v-5"/></svg></div><h3>Collect webpage images</h3><p>Request a scan from Chrome’s toolbar, browse a thumbnail gallery and filter by available image details. Website access restrictions apply.</p></article>
         <article><div class="feature-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s7-3 7-10V6l-7-3-7 3v5c0 7 7 10 7 10Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Keep local files local</h3><p>Image processing runs on your device. The extension has no analytics or cloud storage. Webpage scanning may request thumbnails from their original hosts.</p><a href="privacy-policy.html">Read the privacy policy</a></article>
       </div>
     </section>
     <section class="wrap section pricing" id="pricing" aria-labelledby="pricing-title">
-      <div class="section-intro"><h2 id="pricing-title">Free tools. One-time Pro upgrade.</h2><p>Use Free for everyday edits. The planned Pro license is a one-time purchase with no subscription fees.</p></div>
+      <div class="section-intro"><h2 id="pricing-title">Free tools. One-time Pro upgrade.</h2><p>Free includes Image Downloader and Resize. The planned Pro license unlocks the other tools for one payment, with no subscription fees.</p></div>
       <div class="price-grid">
         <article class="price-card">
-          <h3>Free</h3><p class="price">$0 <span>USD</span></p><p>Everyday image tools for Chrome.</p>
+          <h3>Free</h3><p class="price">$0 <span>USD</span></p><p>Webpage image downloads and batch resizing.</p>
           <button class="button unavailable" type="button" disabled>Download Free · Coming Soon</button>
         </article>
         <article class="price-card pro-card">
@@ -91,15 +91,14 @@
           <caption>Compare Free and Pro features</caption>
           <thead><tr><th scope="col">Feature</th><th scope="col">Free</th><th scope="col">Pro</th></tr></thead>
           <tbody>
-            <tr><th scope="row">Convert, resize, compress and edit</th><td>Included</td><td>Included</td></tr>
-            <tr><th scope="row">HEX, RGB and HSL color picking</th><td>Included</td><td>Included</td></tr>
-            <tr><th scope="row">Local batch processing</th><td>5 images per operation</td><td>Larger batches</td></tr>
-            <tr><th scope="row">Webpage image downloads</th><td>One at a time</td><td>Bulk downloads</td></tr>
-            <tr><th scope="row">Compression target size</th><td>—</td><td>Included</td></tr>
+            <tr><th scope="row">Webpage image downloads</th><td>Single and bulk</td><td>Single and bulk</td></tr>
+            <tr><th scope="row">Resize and batch resize</th><td>Included</td><td>Included</td></tr>
+            <tr><th scope="row">Format conversion and compression</th><td>—</td><td>Included</td></tr>
+            <tr><th scope="row">Crop, rotate and adjust images</th><td>—</td><td>Included</td></tr>
             <tr><th scope="row">Text and logo watermarking</th><td>—</td><td>Included</td></tr>
             <tr><th scope="row">Metadata inspection and sanitization</th><td>—</td><td>Included</td></tr>
             <tr><th scope="row">Batch file renaming and ZIP export</th><td>—</td><td>Included</td></tr>
-            <tr><th scope="row">Dominant colors and CSS palettes</th><td>—</td><td>Included</td></tr>
+            <tr><th scope="row">Color picking and CSS palettes</th><td>—</td><td>Included</td></tr>
           </tbody>
         </table>
         <p>Device and file limits apply to both plans. Public downloads and Pro purchases are coming soon. <a href="refund-policy.html">Read the proposed refund policy</a>.</p>
@@ -110,8 +109,9 @@
         <div><h2 id="faq-title">Frequently asked questions</h2><p>For troubleshooting or product questions, <a href="support.html">contact PixelKit Labs</a>.</p></div>
         <div class="accordion">
           <details><summary>Do my images ever leave my device?</summary><p>PixelKit Pro processes local files in Chrome without uploading them. If you scan a webpage, Chrome may request thumbnails and selected images from their original hosts. <a href="privacy-policy.html">See the full privacy policy</a>.</p></details>
-          <details><summary>Does PixelKit Pro work offline?</summary><p>Local tools such as conversion, resizing and editing work offline after installation. Scanning and downloading webpage imagery can require access to the page and its image hosts.</p></details>
+          <details><summary>Does PixelKit Pro work offline?</summary><p>Resize and the local Pro tools work offline after installation. Scanning and downloading webpage imagery can require access to the page and its image hosts.</p></details>
           <details><summary>How are SVGs and animated images converted?</summary><p>SVG output embeds a raster image. Conversion of animated images exports one still frame. JPEG and BMP are exported with a white background where the source was transparent.</p></details>
+          <details><summary>What can I do with Free?</summary><p>Download webpage images individually or in bulk, and resize local images one at a time or in batches. ZIP export and the other image tools require Pro.</p></details>
           <details><summary>What does the lifetime Pro price mean?</summary><p>The planned price is $14.99 USD paid once for a lifetime Pro license, with no recurring subscription fee. Purchase and activation details will be provided when Pro is available.</p></details>
           <details><summary>When can I install the extension or purchase Pro?</summary><p>Both are marked Coming Soon. PixelKit Labs will add the Chrome Web Store and purchase links when they are available.</p></details>
         </div>
